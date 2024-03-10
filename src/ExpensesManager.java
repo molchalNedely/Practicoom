@@ -6,7 +6,7 @@ public class ExpensesManager {
 
             // печать вопросов и считывание ответов оставьте в классе Practicum
             System.out.println("За какой день вы хотите ввести трату: 1-ПН, 2-ВТ, 3-СР, 4-ЧТ, 5-ПТ, 6-СБ, 7-ВС?");
-            int day = scanner.nextInt();
+            int day = scanner.nextInt(); // тут не доделал
             System.out.println("Введите размер траты:");
             double expense = scanner.nextDouble();
 
@@ -25,7 +25,7 @@ public class ExpensesManager {
             }
         }
 
-        double findMaxExpense() {
+        double findMaxExpense() { // и тут
             double maxExpense = 0;
             for (int i = 0; i < expenses.length; i++) {
                 if (expenses[i] > maxExpense) {
