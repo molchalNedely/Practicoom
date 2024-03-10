@@ -25,7 +25,7 @@ public class ExpensesManager {
             }
         }
 
-        double findMaxExpense() { // и тут
+        double findMaxExpense() {
             double maxExpense = 0;
             for (int i = 0; i < expenses.length; i++) {
                 if (expenses[i] > maxExpense) {
